@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,500i,900i');
+
+body, h1, h2, h3, h4, h5, h6, p, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url("/assets/miamirb-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+header {
+    font-size: 4em;
+}
+
+header h1 {
+    display: inline-block;
+    background-color: white;
+    color: #F29F41;
+    text-shadow: 2px 2px 0px black;
+    width: 50%;
+    padding: 0.25em;
+}
+
+main ul li {
+    padding-bottom: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+main section#links ul li {
+    font-size: 4em;
+}
+
+main ul li a:link,
+main ul li a:visited {
+    color: #F29F41;
+    background-color: white;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#coc {
+    color: #b4fb70;
+    background-color: black;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 50%;
+    font-weight: 500;
+}
+
+section#coc h1 {
+    margin-top: 0;
+}
+
+footer,
+footer a:link,
+footer a:visited {
+    color: #B4FB70;
+}
+footer {
+    background-color: black;
+    padding: 1em;
+}
